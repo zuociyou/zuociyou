@@ -1,0 +1,98 @@
+{
+  "uid" : "caa8a70b78f9d595",
+  "name" : "test_div[带负数计算]",
+  "fullName" : "test_001.TestCalc#test_div",
+  "historyId" : "991d29f2b3b19cb934f4aa0a4b0dae7c",
+  "time" : {
+    "start" : 1608982248280,
+    "stop" : 1608982248280,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "myfixture",
+    "time" : {
+      "start" : 1608982248271,
+      "stop" : 1608982248271,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "myfixture::0",
+    "time" : {
+      "start" : 1608982248297,
+      "stop" : 1608982248297,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "div_demo"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_001"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FDNFAGR"
+  }, {
+    "name" : "thread",
+    "value" : "11768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "-10"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  }, {
+    "name" : "expected",
+    "value" : "-5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "div_demo" ]
+  },
+  "source" : "caa8a70b78f9d595.json",
+  "parameterValues" : [ "-10", "2", "-5" ]
+}
