@@ -33,12 +33,12 @@ class TestWework:
         for cookes in cooke_data:
             self.driver.add_cookie(cookes)
         self.driver.get("https://work.weixin.qq.com/wework_admin/frame#index")   #进入企业微信首页
-        # self.driver.find_element_by_xpath('//*[@id="_hmt_click"]/div[1]/div[4]/div[2]/a[1]/div').click()
-        # self.driver.find_element_by_id("username").send_keys("DD老板")
-        # self.driver.find_element_by_id("memberAdd_english_name").send_keys("DD")
-        # self.driver.find_element_by_id("memberAdd_acctid").send_keys("13022222222")
-        # self.driver.find_element_by_id("memberAdd_mail").send_keys("123456@qq.com")
-        # self.driver.execute_script("return document.getElementsByClassName('qui_btn ww_btn js_btn_save')[1]").click()
+        self.driver.find_element_by_xpath('//*[@id="_hmt_click"]/div[1]/div[4]/div[2]/a[1]/div').click()
+        self.driver.find_element_by_id("username").send_keys("DD老板")
+        self.driver.find_element_by_id("memberAdd_english_name").send_keys("DD")
+        self.driver.find_element_by_id("memberAdd_acctid").send_keys("13022222222")
+        self.driver.find_element_by_id("memberAdd_mail").send_keys("123456@qq.com")
+        self.driver.execute_script("return document.getElementsByClassName('qui_btn ww_btn js_btn_save')[1]").click()
         self.driver.find_element_by_id("menu_contacts").click()
 
         def test_asser(self):
